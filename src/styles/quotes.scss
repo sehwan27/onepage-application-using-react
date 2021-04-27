@@ -1,0 +1,79 @@
+.quotes-section{
+    padding: 50px 0;
+  }
+  
+  .person {
+    background-color: var(--baseGrey);
+    border: 1px solid var(--baseGreen);
+    width: 250px;
+    height: 40px;
+    padding: 15px 15px 12px;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .person-name {
+    color: var(--baseGreen);
+    font-size: 13px;
+    font-family: Raleway;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .person-position {
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #aaaaaa;
+  }
+  
+  .person-description {
+    max-width: 1129px;
+    /* padding: 34px 177px 4px 934px; */
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e4e4e4;
+    display: flex;
+    margin: 30px auto;
+  }
+  
+  .fa-quote-left,
+  .fa-quote-right {
+    font-size: 14px;
+  }
+  
+  .diamond-shape.black-diamond > .fa-quote-left {
+    transform: rotate(-45deg);
+  }
+  
+  .fa-caret-square-left {
+    background-color: var(--baseGreen);
+    color: var(--baseGrey);
+    margin: 5px;
+    font-size: 30px;
+  }
+  
+  .fa-caret-square-right {
+    /* background-color: var(--baseGrey); */
+    color: var(--baseBlack);
+    margin: 5px;
+    font-size: 30px;
+  }
+  

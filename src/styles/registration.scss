@@ -1,0 +1,48 @@
+
+.regTitle {
+    width: 100%;
+    margin: 89px 0 30px;
+    font-family: "AvenirNext", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: italic;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a99d;
+  }
+  
+  .reg-form {
+    margin-bottom: 100px;
+    border: 1px solid var(--baseGrey);
+    padding: 20px;
+    border-radius: 10px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+  }
+  
+  .input-col {
+    margin: 20px 0;
+  }
+  
+  .reg-input {
+    height: 56px !important;
+  }
+  
+  .submit-button {
+    width: 330px;
+    height: 40px;
+    background-color: var(--baseGreen);
+    color: var(--baseGrey);
+    border-radius: 3px;
+    /* padding: 16px; */
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+  }
+  @media (max-width: 768px) {
+    .submit-button {
+      width: 100%;
+    }
+  }
+  
