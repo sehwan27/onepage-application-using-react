@@ -1,9 +1,11 @@
+@import "pages/general";
 @import "pages/powerfulskill";
+@import "pages/variables"; 
+@import "pages/profile"; 
+@import "pages/keypoint"; 
+@import "pages/registration"; 
+@import "pages/quotes"; 
+@import "pages/progress"; 
+@import "pages/footer"; 
 
 
-
-$teal: teal;
-
-div {
-  background-color: $teal;
-}
