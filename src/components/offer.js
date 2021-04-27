@@ -1,6 +1,10 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDesktop } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faDesktop,
+  faPuzzlePiece,
+  faCrosshairs,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Offer() {
   return (
@@ -10,7 +14,7 @@ function Offer() {
           <div className="line"></div>
           <div className="what-we-offer">
             <span className="what-we">
-              WHAT WE
+              WHAT WE&nbsp;
               <span className="offer">OFFER</span>
             </span>
           </div>
@@ -24,8 +28,7 @@ function Offer() {
           <div className="each-icon col-md-4 p-0">
             <div className="each-icon-container">
               <div className="icon">
-              <FontAwesomeIcon icon={faDesktop} />
-                {/* <i className="fas fa-desktop"></i> */}
+                <FontAwesomeIcon icon={faDesktop} />
               </div>
             </div>
             <div className="icon-description">
@@ -45,7 +48,8 @@ function Offer() {
           <div className="each-icon col-md-4 p-0">
             <div className="each-icon-container">
               <div className="icon icon-green">
-                <i className="fas fa-puzzle-piece"></i>
+                <FontAwesomeIcon icon={faPuzzlePiece} />
+
               </div>
             </div>
             <div className="icon-description">
@@ -64,7 +68,8 @@ function Offer() {
           <div className="each-icon col-md-4 p-0">
             <div className="each-icon-container">
               <div className="icon">
-                <i className="fas fa-crosshairs"></i>
+                <FontAwesomeIcon icon={faCrosshairs} />
+
               </div>
             </div>
             <div className="icon-description">
