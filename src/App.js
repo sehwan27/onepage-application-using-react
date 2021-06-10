@@ -4,6 +4,7 @@ import Offer from "./components/offer.js";
 import Skills from "./components/skills.js";
 import Keypoint from "./components/keypoint.js";
 import Registration from "./components/registration";
+import Quotes from "./components/quotes";
 import Footer from "./components/footer.js";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Skills></Skills>
       <Keypoint></Keypoint>
       <Registration></Registration>
+      <Quotes></Quotes>
       <Footer></Footer>
     </div>
   );
