@@ -1,14 +1,17 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faDesktop,
+  faBriefcase,
   faPuzzlePiece,
+  faStar,
+  faFileAlt,
+  faShoppingCart,
   faCrosshairs,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Keypoint() {
   return (
-    <div className="">
+    <div className="section">
       {/* <div className="keypoint-logo">
         <div className="trapezium">
           <div className="trapeziumTwo"></div>
@@ -24,7 +27,10 @@ function Keypoint() {
           <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-inline-flex p-0">
             <div className="trapezium">
               <div className="trapeziumTwo">
-                <i className="trapezium-icon fas fa-briefcase"></i>
+                <FontAwesomeIcon
+                  className="trapezium-icon"
+                  icon={faBriefcase}
+                />
               </div>
             </div>
             <div className="keypoint">
@@ -44,7 +50,10 @@ function Keypoint() {
           <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-inline-flex p-0">
             <div className="trapezium">
               <div className="trapeziumTwo">
-                <i className="trapezium-icon fas fa-puzzle-piece"></i>
+                <FontAwesomeIcon
+                  className="trapezium-icon"
+                  icon={faPuzzlePiece}
+                />
               </div>
             </div>
             <div className="keypoint">
@@ -64,7 +73,7 @@ function Keypoint() {
           <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-inline-flex p-0">
             <div className="trapezium">
               <div className="trapeziumTwo">
-                <i className="trapezium-icon fas fa-star"></i>
+                <FontAwesomeIcon className="trapezium-icon" icon={faStar} />
               </div>
             </div>
             <div className="keypoint">
@@ -84,7 +93,7 @@ function Keypoint() {
           <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-inline-flex p-0">
             <div className="trapezium">
               <div className="trapeziumTwo">
-                <i className="trapezium-icon fas fa-file-alt"></i>
+                <FontAwesomeIcon className="trapezium-icon" icon={faFileAlt} />
               </div>
             </div>
             <div className="keypoint">
@@ -104,7 +113,10 @@ function Keypoint() {
           <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-inline-flex p-0">
             <div className="trapezium">
               <div className="trapeziumTwo">
-                <i className="trapezium-icon fas fa-shopping-cart"></i>
+                <FontAwesomeIcon
+                  className="trapezium-icon"
+                  icon={faShoppingCart}
+                />
               </div>
             </div>
             <div className="keypoint">
@@ -125,7 +137,10 @@ function Keypoint() {
           <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-inline-flex p-0">
             <div className="trapezium">
               <div className="trapeziumTwo">
-                <i className="trapezium-icon fas fa-crosshairs"></i>
+                <FontAwesomeIcon
+                  className="trapezium-icon"
+                  icon={faCrosshairs}
+                />
               </div>
             </div>
             <div className="keypoint">
