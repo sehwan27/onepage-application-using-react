@@ -49,7 +49,6 @@ function Offer() {
             <div className="each-icon-container">
               <div className="icon icon-green">
                 <FontAwesomeIcon icon={faPuzzlePiece} />
-
               </div>
             </div>
             <div className="icon-description">
@@ -69,7 +68,6 @@ function Offer() {
             <div className="each-icon-container">
               <div className="icon">
                 <FontAwesomeIcon icon={faCrosshairs} />
-
               </div>
             </div>
             <div className="icon-description">
